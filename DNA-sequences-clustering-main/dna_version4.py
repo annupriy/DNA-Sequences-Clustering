@@ -21,7 +21,7 @@ class DNAClusteringApp:
         self.root.title("DNA Clustering")
 
         # Set the background image
-        bg_image_path = r"DNA-sequences-clustering-main\DNA-sequences-clustering-main\bg.png"  
+        bg_image_path = r"bg.png"  
         self.bg_image = ImageTk.PhotoImage(Image.open(bg_image_path))
         self.background_label = tk.Label(self.root, image=self.bg_image)
         self.background_label.place(relwidth=1, relheight=1)
